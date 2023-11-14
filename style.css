@@ -1,0 +1,122 @@
+
+
+.hero {
+    background-color: #7FD7F0;
+    display: flex;
+    justify-content:center;
+    height:100vh;
+}
+.first {
+    width: 550px;
+}
+
+#flower {
+    float: right;
+}
+
+span {
+    color: #F0C060;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    text-align: start;   
+}
+.second {
+    width: 550px;
+}
+.first img {
+    margin: 0;
+}
+.second img {
+    padding-top: 50px;
+    padding-right: 100%;
+}
+h1, h2 {
+    color: #3132A3;
+    text-align:left;
+}
+h1 {
+    font-family: 'Amita', cursive;
+    font-size: 4rem;
+    margin: 0;
+}
+h2 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2.5rem;
+    margin: 0;   
+}
+h3 {
+    font-family: 'MuseoModerno', cursive;
+    color: #B4B4F0;
+}
+p {
+    font-family: 'Arima', cursive;
+    font-weight: 500;
+    font-size: 1rem;
+}
+hr {
+    text-align: center;
+    width: 4%;
+    color: #F0C060;
+    border: dotted
+}
+.skills {
+    display: flex;
+    justify-content: center;
+}
+.resume {
+    width: 550px;
+}
+.resume img {
+    float:right
+}
+.contact h2 {
+    text-align: center;
+}
+.contact {
+    
+    text-align: center;
+}
+button {
+    background-color: #5292A3;
+    border-color: #7FD7F0;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color:#7FD7F0;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.end {
+    display: flex;
+    justify-content:center;
+    background-color: #F0C060;
+    text-align: center;
+}
+.links a {
+    margin: 8px;
+}
+.end p {
+    color: #3132A3;
+    font-weight: 600;
+}
+footer {
+    padding-top: 20px;
+}
+@media (max-width: 420px) {
+    .hero {
+        background-color: #7FD7F0;
+        display: flex;
+        justify-content:center;
+        width:max-content;
+        height:100vh;
+    }
+    .first img {
+        height: 200px;
+    }
+    #flower {
+        float: none;
+    }
+}
